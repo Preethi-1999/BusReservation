@@ -2,12 +2,12 @@
   <h2>Login Form</h2>
     
       <form [formGroup]="LoginForm" (ngSubmit)="f.form.valid" #f="ngForm">
-    <!--{{LoginForm.value|json}}-->
+  <!-- //{{LoginForm.value|json}} -->
     <div class="form-group">
   
     
     <br>
-    <!-- Email -->
+    <!-- //Email  -->
     <div class="form-group">
       <label>Email Id</label>
       <input type="email" formControlName="email" name="userId" [(ngModel)]=search.emailId [class.is-invalid]="Email.invalid && Email.touched" class="form-control" class="form-control" placeholder="Enter Email Address">
@@ -17,7 +17,7 @@
       </div>  
     </div>
   
-    <!-- Password -->
+    <!-- //Password  -->
     <div class="form-group">
       <label>Password</label>
       <input type="password" formControlName="password" [(ngModel)]=search.password class="form-control" placeholder="Enter 8 digit Password" [class.is-invalid]="LoginForm.controls.password.invalid && LoginForm.controls.password.touched">
@@ -27,7 +27,7 @@
       </div>
     </div>
   
-    <!-- OnSubmit button -->
+    <!-- //OnSubmit button  -->
     <div class="form-group" style="text-align:center">
       <button class="btn btn-primary" (click)="searchTicket()">Login</button>
       <a href="/forgotPassLink" style="margin-left: 80%;">Forgot Password?</a>
@@ -38,6 +38,5 @@
 
   <h3 style="color: red; text-align:center;">{{infoLogin}}</h3>
 
-  </div>
-
+  </div> 
   

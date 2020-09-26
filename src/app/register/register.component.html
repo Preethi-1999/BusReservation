@@ -1,9 +1,13 @@
-<div class="container-sm">
+<section class="container-fluid">
+    <!-- row and justify-content-center class is used to place the form in center -->
+    <section class="row justify-content-center">
+      <section class="col-12 col-sm-6 col-md-4">
+<div class="container-fluid">
 	<h2>Registration Form</h2>
 		<br><br>
-		<form [formGroup]="registerForm" (ngSubmit)="f.form.valid" #f="ngForm">
+		<form class="form-container" [formGroup]="registerForm" (ngSubmit)="f.form.valid" #f="ngForm">
 		
-			  <div>
+			  <div class="form-group">
 		
 				<!-- First Name -->
 				<label class="float-left" for="fName">First Name</label>
@@ -71,6 +75,9 @@
 				<button class="btn btn-primary" (click)="register()">Sign Up</button>
 			  </div>
 		
-	</form>
-	<h3 style="color: red; text-align: center;">{{info}}</h3>
-</div>
+	          </form>
+	        <h3 style="color: red; text-align: center;">{{info}}</h3>
+            </div>
+        </section>
+    </section>
+</section>
