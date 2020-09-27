@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Bus
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
@@ -29,3 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # 10671417Project
 >>>>>>> b4cce22081fddf9c7c3c4bdc8f686bec763497f4
+=======
+# BusReservation
+>>>>>>> 4a047a33a4926082fcfabe4cb230218f67f6df91
