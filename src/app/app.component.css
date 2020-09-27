@@ -81,6 +81,7 @@
   
   /* styling our footer */
   footer   {
+   
     background: #222;
     color: #777;
     padding: 40px;
@@ -97,6 +98,8 @@
       float: right;
       margin-top: -90px;
   }
+  
+
   
   
   

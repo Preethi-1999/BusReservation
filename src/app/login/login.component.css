@@ -38,3 +38,19 @@ label{
     margin-top: 8px;
 } */
 
+body{
+	background: #383a3d;
+	padding-top: 25vh;	
+}
+/* set form background colour*/
+form{
+   background: #fff;
+   border: 3px solid black; 
+}
+/* set padding and size of th form */
+.form-container{
+	border-radius: 10px;
+	padding: 50px;
+}
+
+h2 {text-align: center;}

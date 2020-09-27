@@ -5,6 +5,7 @@
 <div class="container-fluid">
 	<h2>Registration Form</h2>
 		<br><br>
+			
 		<form class="form-container" [formGroup]="registerForm" (ngSubmit)="f.form.valid" #f="ngForm">
 		
 			  <div class="form-group">
@@ -16,7 +17,7 @@
 				<div *ngIf="FName.invalid && FName.touched">
 				  <small class="text-danger">First Name not valid.</small>
 				</div>
-					</div><br>
+				</div><br>
 		
 			  <!-- Last Name -->
 			  <div class="form-group">
@@ -74,10 +75,15 @@
 			  <div class="form-group" style="text-align:center">
 				<button class="btn btn-primary" (click)="register()">Sign Up</button>
 			  </div>
-		
+			 
+			  <div class="container login">
+				<p>Already have an account? <a href="/loginLink">login</a></p>
+			  </div>
+
 	          </form>
 	        <h3 style="color: red; text-align: center;">{{info}}</h3>
-            </div>
+			</div>
         </section>
     </section>
 </section>
+
